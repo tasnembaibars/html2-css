@@ -1,0 +1,42 @@
+#first{
+    font-size: 30px;
+    font-weight:bold ;
+    background-color: rgb(201, 59, 59);
+    margin-top: 0px; ;
+    margin-right: 20px;
+}
+ p{
+     text-align:left;
+    
+     
+
+
+ }
+ #uppercase{
+     text-transform: uppercase;
+ }
+ div{
+     background-image:url("../../html2-css/image/pokemon.png");
+     background-size: cover;
+     width: 200px ;
+     height: 200px;
+     color: rgb(172, 64, 64) ;
+    text-align: center;
+   
+ 
+ 
+
+    
+
+    
+#label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+ 
+
