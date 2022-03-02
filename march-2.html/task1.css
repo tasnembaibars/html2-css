@@ -1,0 +1,41 @@
+#do{
+    font-weight: bold;
+    font-style:inherit;
+}
+ .hh{
+     color: rgb(57, 71, 201);
+     font-size: 25px;
+     background-color: rgb(110, 168, 216);
+ }
+ #line{
+     color:rgb(110, 168, 216) ;
+ }
+ #table{
+     border:;
+ }
+
+ .tab{
+     font-weight: bold;
+     
+     ;
+ }
+ .col{
+    
+     font-weight: bold;
+     text-align:center;
+ }
+ .num{
+     color: rgb(126, 126, 212);
+     font-weight: bold;
+ }
+ .rr{
+     color: rgb(160, 160, 235);
+ }
+
+ .ff{
+     color: rgb(168, 168, 230);
+ }
+ #word{font-weight: bolder;
+    font-family:fantasy;
+
+ }
