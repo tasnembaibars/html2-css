@@ -1,0 +1,51 @@
+h3{
+    text-decoration :underline;
+    
+
+}
+.par{
+    color: blue;
+    font-weight: bold;
+
+}
+p>#link{
+color: orange;
+}
+
+p>#link2{
+    color: orange;
+}
+p>#link3{
+ color: rgb(136, 33, 33);
+ background-color: yellow;
+}
+
+li>#pl{
+    font-weight: bold;
+
+}
+a#link4{
+    color: red;
+    font-weight: bold;
+}
+.list{
+    color: blue;
+}
+.list #num{
+    font-weight: bold;
+}
+
+li>#link5{
+    color: red;
+
+}
+.list #red{
+    font-weight: bold;
+}
+li>#link6{
+    color: red;
+
+}
+#li{
+    color: black;
+}
