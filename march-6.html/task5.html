@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Exercise #5</title>
+    <style>
+        .colored{
+            background-color:#2d9d9f85 ;
+            width: 150px;
+            height: 150px;
+            border-style: hidden;
+            position: absolute;
+            animation-name: moving;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes moving{
+            
+            14%{ 
+                top:0px ;
+                left:150px;
+            }
+            29%{ background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+               top: 0px;
+               left: 300px;
+            }
+            43%{background-color:  linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+                top: 300px;
+                left:300px;}
+            
+            
+            
+            57%{background-color: #1CB5E0;
+                top:300px;
+                left: 0px;
+            }
+            71%{background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+                top:0px ;
+                left: 0px;
+            }
+            100%{ background-color:#2d9d9f85;
+                top: 0px;
+                left: 200px;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="colored"></div>
+</body>
+</html>

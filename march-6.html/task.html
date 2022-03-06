@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Exercise #1</title>
+    <style>
+        @keyframes square {
+            
+            
+           0% {
+               left: 0px;
+               top:0px;
+           }
+           25% {
+               left: 100px;
+               top:0px;
+           }
+           50% {
+               left:100px;
+               top: 100px;
+
+           }
+          75% {
+              left: 0px;
+              top: 100px;
+          }
+            
+          100% {
+              top: 0px;
+              left: 0px;
+          }
+        }
+        
+        
+
+        div{ border-style:dashed;
+             border-width: 3px;
+             border-color: rgb(178, 128, 224);
+             width: 50px;
+             height: 50px;
+             position: absolute;
+             animation: square; animation-duration:2s; animation-iteration-count:3;
+        
+        }
+      .p{
+          font-size: 20px; position: relative; top:300px;
+          color: rgb(182, 125, 235); transition-delay: 2s; transition-duration: 5s;transition-property: font-size;
+      }   
+
+      p:hover{ font-size: 60px;color: rgb(165, 94, 231);}
+        
+
+    </style>
+</head>
+<body>
+
+    <div> </div>
+    <br>   <br><br><br>
+    <p class="d2">Irbid first cohort</p>
+    
+</body>
+</html>

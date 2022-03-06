@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Exercise #3</title>
+    <style>
+       .border{
+        border-style: solid;
+            border-width: 2px;
+            width: 40px;
+            height: 120px;
+            background-color: black;
+            margin: auto;
+            border-radius: 20%;
+            position: absolute;
+            
+       }
+       .cir1{
+           border-radius: 50%;
+           background-color: rgb(235, 226, 226);
+           width: 40px;
+           height: 40px;
+           float: left;
+           position: relative;
+           margin-top: auto;
+           
+           animation: red;
+           animation-duration: 3s;
+           animation-iteration-count:infinite ;
+           
+           display: block;
+           
+       }
+       @keyframes red{
+           
+           33%{ background-color: red;}
+           100%{background-color: rgb(235, 226, 226);}
+        
+            
+       }
+
+       .cir2{
+        border-radius: 50%;
+           background-color: rgb(235, 226, 226);
+           width: 40px;
+           height: 40px;
+           float: left;
+           position: relative;
+           margin: auto;
+           display: block;
+           animation: orange;
+           animation-duration: 3s;
+           animation-iteration-count:infinite ;
+           
+       }
+       @keyframes orange{
+        33%{ background-color:  rgb(235, 226, 226);}
+          66%  { background-color: rgb(245, 175, 46);}
+       }
+
+       .cir3{
+        border-radius: 50%;
+           background-color: rgb(235, 226, 226);
+           width: 40px;
+           height: 40px;
+           float: left;
+           position: relative;
+           margin: auto;
+           display: block;
+           animation: green;
+           animation-duration: 3s;
+           animation-iteration-count: infinite;
+           
+       }
+       @keyframes green{
+        66%{ background-color:  rgb(235, 226, 226);}
+            100%{ background-color:rgb(72, 236, 72) }
+       }
+
+    </style>
+</head>
+<body>
+    <div class="border">
+    <div class="cir1"></div>
+    <div class="cir2"></div>
+    <div class="cir3"></div></div>
+</body>
+</html>
