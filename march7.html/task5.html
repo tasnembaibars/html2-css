@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Exercise #5</title>
+    <style>
+        h1{
+            color: rgb(140, 55, 219);
+            text-align: center;
+        }
+    #rabbit{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50% 50%;
+        gap: 10px;
+        width: 100%;
+        height: 450px;
+        
+    }
+    #rabbit img:nth-of-type(1){width: 100%;height: 100%;}
+
+    @media screen and (min-width:480px) and (max-width:768px)
+      {  #rabbit {
+        grid-template-columns :35% 35%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content: center;
+        gap: 30px;
+    }
+                 }
+
+    @media screen and (max-width:479px) {
+        #rabbit{
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+    }             
+    
+    </style>
+</head>
+<body>
+    <h1>Rabbit gallary</h1>
+    <div id="rabbit">
+        <div class="rab1"><img src="/image/rabbit.jpg" alt=""></div>
+        <div >
+            <img src="/image/webshare_violetrabbit.png" alt="">
+        </div>
+        <div><img src="/image/purple-rabbit-neon-banner_1189-1799.webp" alt=""></div>
+        <div><img src="/image/rab3.jpg" alt=""></div>
+        <div><img src="/image/rab2.jpg" alt=""></div>
+        <div><img src="/image/rab4.webp" alt=""></div>
+        <div><img src="/image/webshare_violetrabbit.png" alt=""></div>
+        <div ><img src="/image/rabbit.jpg" alt=""></div>
+    </div>
+</body>
+</html>
